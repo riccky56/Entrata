@@ -18,7 +18,7 @@ public class DynamicContentTest extends Browser{
     public void testHeaderChangesOnHover() {
    
     	JavascriptExecutor js = (JavascriptExecutor) driver;
-    	
+    	//to wait for the solutions button to be stable
 		WebElement Solutions = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//*[text()='Solutions'])[1]")));
 		js.executeScript("arguments[0].scrollIntoView(true);", Solutions);
 		Solutions.click();
@@ -28,6 +28,7 @@ public class DynamicContentTest extends Browser{
 
     @Test
     public void testChatWidgetPresence() {
+    	//failing this test as to verify the assertion
         boolean isChatWidgetPresent = driver.getPageSource().contains("Chat");
         Assert.assertTrue(isChatWidgetPresent, "Chat widget should be present in source");
     }
