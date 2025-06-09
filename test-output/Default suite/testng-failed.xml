@@ -5,8 +5,8 @@
     <classes>
       <class name="Tests.DynamicContentTest">
         <methods>
-          <include name="testChatWidgetPresence"/>
           <include name="startBrowser"/>
+          <include name="testChatWidgetPresence"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- Tests.DynamicContentTest -->

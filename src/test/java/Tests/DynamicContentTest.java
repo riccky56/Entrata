@@ -28,7 +28,8 @@ public class DynamicContentTest extends Browser{
 
     @Test
     public void testChatWidgetPresence() {
-    	//failing this test as to verify the assertion
+    	//failing this test as to verify the assertion as chat widget is not present
+    	
         boolean isChatWidgetPresent = driver.getPageSource().contains("Chat");
         Assert.assertTrue(isChatWidgetPresent, "Chat widget should be present in source");
     }

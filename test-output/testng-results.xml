@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-08T21:29:28 IST" name="Default suite" finished-at="2025-06-08T21:29:52 IST" duration-ms="23494">
+  <suite started-at="2025-06-09T15:10:47 IST" name="Suite" finished-at="2025-06-09T15:12:42 IST" duration-ms="114200">
     <groups>
     </groups>
-    <test started-at="2025-06-08T21:29:28 IST" name="Default test" finished-at="2025-06-08T21:29:52 IST" duration-ms="23494">
+    <test started-at="2025-06-09T15:10:47 IST" name="Test" finished-at="2025-06-09T15:12:42 IST" duration-ms="114200">
       <class name="Tests.DynamicContentTest">
-        <test-method is-config="true" signature="startBrowser()[pri:0, instance:Tests.DynamicContentTest@2d3379b4]" started-at="2025-06-08T21:29:28 IST" name="startBrowser" finished-at="2025-06-08T21:29:48 IST" duration-ms="19081" status="PASS">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:Tests.DynamicContentTest@5bda8e08]" started-at="2025-06-09T15:12:03 IST" name="startBrowser" finished-at="2025-06-09T15:12:17 IST" duration-ms="14468" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method signature="testChatWidgetPresence()[pri:0, instance:Tests.DynamicContentTest@2d3379b4]" started-at="2025-06-08T21:29:48 IST" name="testChatWidgetPresence" finished-at="2025-06-08T21:29:48 IST" duration-ms="881" status="FAIL">
+        <test-method signature="testChatWidgetPresence()[pri:0, instance:Tests.DynamicContentTest@5bda8e08]" started-at="2025-06-09T15:12:17 IST" name="testChatWidgetPresence" finished-at="2025-06-09T15:12:18 IST" duration-ms="1047" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Chat widget should be present in source expected [true] but found [false]]]>
@@ -21,7 +21,7 @@
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1590)
 at org.testng.Assert.assertTrue(Assert.java:57)
-at Tests.DynamicContentTest.testChatWidgetPresence(DynamicContentTest.java:32)
+at Tests.DynamicContentTest.testChatWidgetPresence(DynamicContentTest.java:34)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -54,11 +54,63 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testChatWidgetPresence -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.DynamicContentTest@2d3379b4]" started-at="2025-06-08T21:29:48 IST" name="tearDown" finished-at="2025-06-08T21:29:52 IST" duration-ms="3452" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.DynamicContentTest@5bda8e08]" started-at="2025-06-09T15:12:18 IST" name="tearDown" finished-at="2025-06-09T15:12:22 IST" duration-ms="3331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:Tests.DynamicContentTest@5bda8e08]" started-at="2025-06-09T15:12:22 IST" name="startBrowser" finished-at="2025-06-09T15:12:37 IST" duration-ms="15006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="testHeaderChangesOnHover()[pri:0, instance:Tests.DynamicContentTest@5bda8e08]" started-at="2025-06-09T15:12:37 IST" name="testHeaderChangesOnHover" finished-at="2025-06-09T15:12:38 IST" duration-ms="1468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHeaderChangesOnHover -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.DynamicContentTest@5bda8e08]" started-at="2025-06-09T15:12:38 IST" name="tearDown" finished-at="2025-06-09T15:12:42 IST" duration-ms="3479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Tests.DynamicContentTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="Tests.NavigationTest">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:Tests.NavigationTest@3eb738bb]" started-at="2025-06-09T15:11:12 IST" name="startBrowser" finished-at="2025-06-09T15:11:27 IST" duration-ms="15661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="testNavigateToProductsPage()[pri:0, instance:Tests.NavigationTest@3eb738bb]" started-at="2025-06-09T15:11:27 IST" name="testNavigateToProductsPage" finished-at="2025-06-09T15:11:33 IST" duration-ms="5909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateToProductsPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.NavigationTest@3eb738bb]" started-at="2025-06-09T15:11:33 IST" name="tearDown" finished-at="2025-06-09T15:11:38 IST" duration-ms="4404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:Tests.NavigationTest@3eb738bb]" started-at="2025-06-09T15:11:38 IST" name="startBrowser" finished-at="2025-06-09T15:11:54 IST" duration-ms="16197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="testNavigateToSolutionsPage()[pri:0, instance:Tests.NavigationTest@3eb738bb]" started-at="2025-06-09T15:11:54 IST" name="testNavigateToSolutionsPage" finished-at="2025-06-09T15:11:59 IST" duration-ms="5553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateToSolutionsPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.NavigationTest@3eb738bb]" started-at="2025-06-09T15:11:59 IST" name="tearDown" finished-at="2025-06-09T15:12:03 IST" duration-ms="3529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.NavigationTest -->
+      <class name="Tests.Form_Filling_Test">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:Tests.Form_Filling_Test@5e0e82ae]" started-at="2025-06-09T15:10:47 IST" name="startBrowser" finished-at="2025-06-09T15:11:04 IST" duration-ms="16148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="testEnterTextInDemoForm()[pri:0, instance:Tests.Form_Filling_Test@5e0e82ae]" started-at="2025-06-09T15:11:04 IST" name="testEnterTextInDemoForm" finished-at="2025-06-09T15:11:08 IST" duration-ms="3920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEnterTextInDemoForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.Form_Filling_Test@5e0e82ae]" started-at="2025-06-09T15:11:08 IST" name="tearDown" finished-at="2025-06-09T15:11:12 IST" duration-ms="3966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.Form_Filling_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
