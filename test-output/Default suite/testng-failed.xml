@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.DynamicContentTest">
+      <class name="testing.loginTest">
         <methods>
-          <include name="startBrowser"/>
-          <include name="testChatWidgetPresence"/>
-          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- Tests.DynamicContentTest -->
+      </class> <!-- testing.loginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
