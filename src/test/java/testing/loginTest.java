@@ -1,5 +1,6 @@
 package testing;
 
+import org.openqa.selenium.By;
 import org.testng.annotations.BeforeClass;
 
 import org.testng.annotations.Test;
@@ -27,15 +28,15 @@ public class loginTest extends Browser2{
 
 
 	@Test
-	public void first() {
+	public void first() throws InterruptedException {
         
 		loginpage log = new loginpage(driver);
 		log.enterusername("standard_user");
 		log.enterpassword("secret_sauce");
 		log.loginbutton();
-
-		
-		driver.quit();
+        
+		driver.findElement(By.xpath("//div[text()='Sauce Labs Backpack']/ancestor::div[@class='inventory_item']//button")).click();	
+		//driver.quit();
 
 
 	}
