@@ -13,6 +13,7 @@ public class Browser {
 
 	public static WebDriver driver;
 	public static WebDriverWait wait;
+	
 	@BeforeMethod
 	public static void startBrowser() {
 	driver = new ChromeDriver();
