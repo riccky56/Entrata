@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-29T00:12:32 IST" name="Default suite" finished-at="2025-07-29T00:12:32 IST" duration-ms="158">
+  <suite started-at="2025-08-01T01:01:05 IST" name="Default suite" finished-at="2025-08-01T01:01:05 IST" duration-ms="82">
     <groups>
       <group name="Master">
         <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@7a8c8dcf]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
@@ -11,19 +11,19 @@
         <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@7a8c8dcf]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2025-07-29T00:12:32 IST" name="Default test" finished-at="2025-07-29T00:12:32 IST" duration-ms="158">
+    <test started-at="2025-08-01T01:01:05 IST" name="Default test" finished-at="2025-08-01T01:01:05 IST" duration-ms="82">
       <class name="testCases.TC001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@7a8c8dcf]" started-at="2025-07-29T00:12:32 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1753728152827" status="FAIL">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@7a8c8dcf]" started-at="2025-08-01T01:01:05 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1753990265682" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'os' is required by BeforeClass on method setup but has not been marked @Optional or defined
-in C:\Users\911374\AppData\Local\Temp\testng-eclipse-613777196\testng-customsuite.xml]]>
+in C:\Users\911374\AppData\Local\Temp\testng-eclipse-2015580800\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'os' is required by BeforeClass on method setup but has not been marked @Optional or defined
-in C:\Users\911374\AppData\Local\Temp\testng-eclipse-613777196\testng-customsuite.xml
+in C:\Users\911374\AppData\Local\Temp\testng-eclipse-2015580800\testng-customsuite.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:264)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
 at org.testng.internal.Parameters.createParameters(Parameters.java:690)
@@ -53,17 +53,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@7a8c8dcf]" started-at="2025-07-29T00:12:32 IST" name="verify_account_registration" finished-at="2025-07-29T00:12:32 IST" duration-ms="0" status="SKIP">
+        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@7a8c8dcf]" started-at="2025-08-01T01:01:05 IST" name="verify_account_registration" finished-at="2025-08-01T01:01:05 IST" duration-ms="0" status="SKIP">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'os' is required by BeforeClass on method setup but has not been marked @Optional or defined
-in C:\Users\911374\AppData\Local\Temp\testng-eclipse-613777196\testng-customsuite.xml]]>
+in C:\Users\911374\AppData\Local\Temp\testng-eclipse-2015580800\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'os' is required by BeforeClass on method setup but has not been marked @Optional or defined
-in C:\Users\911374\AppData\Local\Temp\testng-eclipse-613777196\testng-customsuite.xml
+in C:\Users\911374\AppData\Local\Temp\testng-eclipse-2015580800\testng-customsuite.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:264)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
 at org.testng.internal.Parameters.createParameters(Parameters.java:690)
@@ -93,7 +93,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_account_registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@7a8c8dcf]" started-at="2025-07-29T00:12:32 IST" name="tearDown" finished-at="2025-07-29T00:12:32 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@7a8c8dcf]" started-at="2025-08-01T01:01:05 IST" name="tearDown" finished-at="2025-08-01T01:01:05 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
